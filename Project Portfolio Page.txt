@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<img src="ge_logo.png" coords="0,0,100,100" alt="Workplace" usemap="#workmap" width="200" height="200">
+<map name="workmap">
+<area shape="default" coords="34,44,270,350" alt="Return to HomePage" href="home.html">
+</map>
+<head>
+  <title>Project Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Project Portfolio</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Page 2</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <h3>Right Aligned Navbar</h3>
+  <p>The .navbar-right class is used to right-align navigation bar buttons.</p>
+</div>
+
+</body>
+
+While using Gibbhor Engineering's website, you agree to have read and accepted our <a tabindex="22"; href="/about/about_copyright.asp">terms of use</a>,
+<a tabindex="23"; href="/about/about_privacy.asp">cookie and privacy policy</a>.<br><br>
+<a tabindex="24"; title="Copy Rights"; style="color:gray" href="/about/about_copyright.asp">Copyright 2018-2023</a> by Gibbhor Group All Rights Reserved.<br>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<img src="ge_logo.png" coords="0,0,100,100" alt="Workplace" usemap="#workmap" width="200" height="200">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+<body>
+
+<div class="icon-bar">
+  <a class="active" href="#"><i class="fa fa-home"></i></a>
+  <a href="services.html"><i class="fa fa-search"></i></a>
+  <a href="about.html"><i class="fa fa-envelope"></i></a>
+  <a href="Project Portfolio.html"><i class="fa fa-globe"></i></a>
+  <a href="contact.html"><i class="fa fa-map"></i></a>
+</div>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+</head>
+<body>
+
+<h2>More</h2>
+<p>Explore Site</p>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+  </style>
+  </head>
+  <body>
+  </div>
+</head>
+<body>
+<h3 tabindex="6"; >About Us</h3><br>
+<p tabindex="7";</p><abbr title abbr="Gibbhor Engineering">GE</abbr><p> is a multi-discipliary engineering company that has a reputation across 3 Continents (Africa, Europe</p><br>
+<P tabindex="8"; >& North America). Founded in 2018, we offically passed the "half a decade" milestone on the 10th January! Built on sound vision,<p/><br>
+<p tabindex="9"; >we driven by a balance of young & experienced Software Engineers, lead by the vibrant Thatayaone Phele. Born in South Africa 1995,<p/><br>
+<p tabindex="10"; >Mr Phele is a growing entrepenuer and a current ALX Software engineering student. After matriculating from Pretoria Boys HighSchool<p/><br>
+<p tabindex="11"; >in 2013, he enrolled for BEng Civil Engineering at the University of Pretoria. After numerous life lessons(and still learning!),<p/><br>
+<p tabindex="12"; >he has found his niche in the world of programming,specializing in Web APIs. He's the founder & CEO of Gibbhor Engineering (Pty) Ltd.</p><br>
+</html>
+</div>
+</div>
+</div>
+
+<hr>
+
+<script>
+  //At start, set focus on the 1st div
+  document.getElementsByTagName('div')[0].focus();
+  </script>
+
+
+  <div class="w3-opacity" style="font-size:12px;text-align:right;margin-bottom:16px;margin-right:8px;">
+    <a tabindex="20"; href="/forum/default.asp" target="_blank" class="xw3-text-grey xw3-hover-text-black" style="text-decoration:none" title="Forum">FORUM</a> |
+    <a tabindex="21"; href="/about/default.asp" target="_top" class="xw3-text-grey xw3-hover-text-black" style="text-decoration:none" title="About Gibbhor Engineering">ABOUT</a>
+
+</div>
+<div class="w3-center w3-small w3-opacity">
+While using Gibbhor Engineering's website, you agree to have read and accepted our <a tabindex="22"; href="/about/about_copyright.asp">terms of use</a>,
+<a tabindex="23"; href="/about/about_privacy.asp">cookie and privacy policy</a>.<br><br>
+<a tabindex="24"; title="Copy Rights"; style="color:gray" href="/about/about_copyright.asp">Copyright 2018-2023</a> by Gibbhor Group All Rights Reserved.<br>
